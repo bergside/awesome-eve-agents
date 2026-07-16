@@ -4,126 +4,183 @@
 
 <br>
 
-> A curated collection of 20 open-source agents for [Eve](https://vercel.com/eve), covering engineering, product, analytics, support, marketing, finance, research, and more. Explore every agent, its source files, and available integrations on [EveAgents](https://eveagents.dev).
+> A curated collection of 20 open-source agents for Eve, covering engineering, product, analytics, support, marketing, finance, research, and more. Explore every agent, its source files, and available integrations on [EveAgents](https://eveagents.dev).
 
-**[Browse all Eve agents on EveAgents.dev](https://eveagents.dev)**
+**[Browse all Eve agents](https://eveagents.dev)**
 
 ## Eve Agents
+
+### Engineering
 
 <table>
   <tr>
     <td width="33%" valign="top">
       <a href="https://eveagents.dev/engineering/incident-response-commander"><b>Incident Response Commander</b></a><br />
-      <sub><b>Engineering</b></sub><br />
       <sub>Investigate incidents, coordinate responders, and turn evidence into a clear recovery plan.</sub>
     </td>
     <td width="33%" valign="top">
       <a href="https://eveagents.dev/engineering/bug-triage-coordinator"><b>Bug Triage Coordinator</b></a><br />
-      <sub><b>Engineering</b></sub><br />
       <sub>Turn scattered bug reports and telemetry into prioritized, reproducible engineering work.</sub>
     </td>
     <td width="33%" valign="top">
       <a href="https://eveagents.dev/engineering/release-readiness-manager"><b>Release Readiness Manager</b></a><br />
-      <sub><b>Engineering</b></sub><br />
       <sub>Assess release risk across open work, errors, adoption signals, documentation, and deployment state.</sub>
     </td>
   </tr>
   <tr>
     <td width="33%" valign="top">
       <a href="https://eveagents.dev/engineering/api-reliability-investigator"><b>API Reliability Investigator</b></a><br />
-      <sub><b>Engineering</b></sub><br />
       <sub>Diagnose failing APIs by connecting requests, logs, traces, monitors, and application errors.</sub>
     </td>
     <td width="33%" valign="top">
       <a href="https://eveagents.dev/engineering/mcp-server-operations-manager"><b>MCP Server Operations Manager</b></a><br />
-      <sub><b>Engineering</b></sub><br />
       <sub>Monitor MCP servers, investigate tool failures, and prepare safe operational remediations.</sub>
     </td>
     <td width="33%" valign="top">
       <a href="https://eveagents.dev/engineering/database-health-analyst"><b>Database Health Analyst</b></a><br />
-      <sub><b>Engineering</b></sub><br />
       <sub>Investigate database performance, query behavior, capacity, and operational risk without making unsafe changes.</sub>
     </td>
   </tr>
+</table>
+
+### Product
+
+<table>
   <tr>
     <td width="33%" valign="top">
       <a href="https://eveagents.dev/product/product-feedback-synthesizer"><b>Product Feedback Synthesizer</b></a><br />
-      <sub><b>Product</b></sub><br />
       <sub>Turn qualitative feedback and product signals into evidence-backed themes and opportunities.</sub>
     </td>
     <td width="33%" valign="top">
       <a href="https://eveagents.dev/product/sprint-planning-facilitator"><b>Sprint Planning Facilitator</b></a><br />
-      <sub><b>Product</b></sub><br />
       <sub>Build a realistic sprint proposal from priorities, capacity, dependencies, and delivery risk.</sub>
     </td>
+    <td width="33%"></td>
+  </tr>
+</table>
+
+### Analytics
+
+<table>
+  <tr>
     <td width="33%" valign="top">
       <a href="https://eveagents.dev/analytics/feature-adoption-analyst"><b>Feature Adoption Analyst</b></a><br />
-      <sub><b>Analytics</b></sub><br />
       <sub>Explain feature adoption, drop-off, cohorts, and unexpected behavior without overstating causality.</sub>
     </td>
+    <td width="33%"></td>
+    <td width="33%"></td>
   </tr>
+</table>
+
+### Knowledge
+
+<table>
   <tr>
     <td width="33%" valign="top">
       <a href="https://eveagents.dev/knowledge/knowledge-base-curator"><b>Knowledge Base Curator</b></a><br />
-      <sub><b>Knowledge</b></sub><br />
       <sub>Answer internal questions with sources and turn stale, conflicting knowledge into reviewable updates.</sub>
     </td>
+    <td width="33%"></td>
+    <td width="33%"></td>
+  </tr>
+</table>
+
+### Customer Support
+
+<table>
+  <tr>
     <td width="33%" valign="top">
       <a href="https://eveagents.dev/customer-support/customer-support-triage-agent"><b>Customer Support Triage Agent</b></a><br />
-      <sub><b>Customer Support</b></sub><br />
       <sub>Classify support requests, find grounded answers, draft replies, and prepare clean escalations.</sub>
     </td>
+    <td width="33%"></td>
+    <td width="33%"></td>
+  </tr>
+</table>
+
+### Customer Success
+
+<table>
+  <tr>
     <td width="33%" valign="top">
       <a href="https://eveagents.dev/customer-success/customer-onboarding-concierge"><b>Customer Onboarding Concierge</b></a><br />
-      <sub><b>Customer Success</b></sub><br />
       <sub>Guide customers through onboarding with contextual next steps, progress tracking, and timely follow-up.</sub>
     </td>
+    <td width="33%"></td>
+    <td width="33%"></td>
   </tr>
+</table>
+
+### Marketing
+
+<table>
   <tr>
     <td width="33%" valign="top">
       <a href="https://eveagents.dev/marketing/content-publishing-manager"><b>Content Publishing Manager</b></a><br />
-      <sub><b>Marketing</b></sub><br />
       <sub>Prepare, review, publish, and verify content and media across modern website platforms.</sub>
     </td>
     <td width="33%" valign="top">
       <a href="https://eveagents.dev/marketing/seo-growth-analyst"><b>SEO Growth Analyst</b></a><br />
-      <sub><b>Marketing</b></sub><br />
       <sub>Find evidence-backed search opportunities and turn them into prioritized content and site recommendations.</sub>
     </td>
     <td width="33%" valign="top">
       <a href="https://eveagents.dev/marketing/campaign-operations-coordinator"><b>Campaign Operations Coordinator</b></a><br />
-      <sub><b>Marketing</b></sub><br />
       <sub>Coordinate campaign records, assets, tracked links, approvals, and cross-tool automations.</sub>
     </td>
   </tr>
+</table>
+
+### Finance
+
+<table>
   <tr>
     <td width="33%" valign="top">
       <a href="https://eveagents.dev/finance/revenue-operations-analyst"><b>Revenue Operations Analyst</b></a><br />
-      <sub><b>Finance</b></sub><br />
       <sub>Reconcile revenue, payment, expense, cash, and operational records into a decision-ready report.</sub>
     </td>
     <td width="33%" valign="top">
       <a href="https://eveagents.dev/finance/payment-support-investigator"><b>Payment Support Investigator</b></a><br />
-      <sub><b>Finance</b></sub><br />
       <sub>Investigate failed payments, refunds, settlements, and customer payment questions safely.</sub>
     </td>
+    <td width="33%"></td>
+  </tr>
+</table>
+
+### Events
+
+<table>
+  <tr>
     <td width="33%" valign="top">
       <a href="https://eveagents.dev/events/event-operations-coordinator"><b>Event Operations Coordinator</b></a><br />
-      <sub><b>Events</b></sub><br />
       <sub>Coordinate attendees, tickets, schedules, tasks, and event communications from one operational plan.</sub>
     </td>
+    <td width="33%"></td>
+    <td width="33%"></td>
   </tr>
+</table>
+
+### Research
+
+<table>
   <tr>
     <td width="33%" valign="top">
       <a href="https://eveagents.dev/research/nonprofit-grant-researcher"><b>Nonprofit Grant Researcher</b></a><br />
-      <sub><b>Research</b></sub><br />
       <sub>Find aligned funders, assess eligibility, and maintain an evidence-backed grant opportunity pipeline.</sub>
     </td>
+    <td width="33%"></td>
+    <td width="33%"></td>
+  </tr>
+</table>
+
+### Education
+
+<table>
+  <tr>
     <td width="33%" valign="top">
       <a href="https://eveagents.dev/education/learning-path-coach"><b>Learning Path Coach</b></a><br />
-      <sub><b>Education</b></sub><br />
       <sub>Build practical learning plans from trusted resources, exercises, available time, and progress.</sub>
     </td>
+    <td width="33%"></td>
     <td width="33%"></td>
   </tr>
 </table>
