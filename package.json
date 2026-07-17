@@ -1,5 +1,5 @@
 {
-  "name": "eveagents",
+  "name": "@bergside/eveagents",
   "version": "0.1.0",
   "description": "Install open-source agents for Vercel's Eve framework.",
   "type": "module",

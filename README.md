@@ -13,7 +13,7 @@
 Install any standalone agent by its slug:
 
 ```bash
-npx eveagents install incident-response-commander
+npx @bergside/eveagents install incident-response-commander
 ```
 
 The CLI creates an `incident-response-commander/` directory containing the complete agent. Run Eve from inside it:
@@ -26,14 +26,14 @@ npx eve@latest
 List every available slug:
 
 ```bash
-npx eveagents list
+npx @bergside/eveagents list
 ```
 
 Use `--dir` to choose a parent directory, or `--force` to replace an existing agent directory:
 
 ```bash
-npx eveagents install meeting-action-planner --dir ./agents
-npx eveagents install meeting-action-planner --force
+npx @bergside/eveagents install meeting-action-planner --dir ./agents
+npx @bergside/eveagents install meeting-action-planner --force
 ```
 
 The CLI never replaces an existing destination unless you explicitly pass `--force`.
@@ -99,8 +99,8 @@ The CLI never replaces an existing destination unless you explicitly pass `--for
 
 ## Quick Start
 
-1. Run `npx eveagents list` or [browse the agent catalog](https://www.eveagents.dev) to find an agent.
-2. Install its standalone source with `npx eveagents install <slug>`.
+1. Run `npx @bergside/eveagents list` or [browse the agent catalog](https://www.eveagents.dev) to find an agent.
+2. Install its standalone source with `npx @bergside/eveagents install <slug>`.
 3. Open the new agent directory and review its `README.md` and `SETUP.md` when present.
 4. Run Eve from the agent directory:
 
@@ -143,7 +143,7 @@ lib/cli.js             # Install and list commands
 registry.json          # Slugs, metadata, paths, and EveAgents URLs
 ```
 
-`npx eveagents install <slug>` resolves the slug through `registry.json` and copies the bundled directory without changing its internal file structure.
+`npx @bergside/eveagents install <slug>` resolves the slug through `registry.json` and copies the bundled directory without changing its internal file structure.
 
 ## Maintainer Sync
 
