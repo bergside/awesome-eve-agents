@@ -145,16 +145,6 @@ registry.json          # Slugs, metadata, paths, and EveAgents URLs
 
 `npx @bergside/eveagents install <slug>` resolves the slug through `registry.json` and copies the bundled directory without changing its internal file structure.
 
-## Maintainer Sync
-
-The committed agent directories are exported from the published standalone agents on EveAgents. Maintainers with production Supabase credentials can refresh them with:
-
-```bash
-NEXT_PUBLIC_SUPABASE_URL=... SUPABASE_SECRET_KEY=... npm run sync:agents
-```
-
-The sync validates every slug and file path, rejects storage-backed or binary files, and replaces `agents/` and `registry.json` only after a complete export succeeds.
-
 ## Contributing
 
 Contributions are welcome. To propose a new agent:
