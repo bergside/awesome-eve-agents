@@ -1,0 +1,279 @@
+{
+  "agents": [
+    {
+      "category": {
+        "name": "Analytics",
+        "slug": "analytics"
+      },
+      "license": "MIT",
+      "name": "Feature Adoption Analyst",
+      "path": "agents/feature-adoption-analyst",
+      "slug": "feature-adoption-analyst",
+      "summary": "Explain feature adoption, drop-off, cohorts, and unexpected behavior without overstating causality.",
+      "url": "https://www.eveagents.dev/analytics/feature-adoption-analyst",
+      "version": "1.0.0"
+    },
+    {
+      "category": {
+        "name": "Customer Success",
+        "slug": "customer-success"
+      },
+      "license": "MIT",
+      "name": "Customer Onboarding Concierge",
+      "path": "agents/customer-onboarding-concierge",
+      "slug": "customer-onboarding-concierge",
+      "summary": "Guide customers through onboarding with contextual next steps, progress tracking, and timely follow-up.",
+      "url": "https://www.eveagents.dev/customer-success/customer-onboarding-concierge",
+      "version": "1.0.0"
+    },
+    {
+      "category": {
+        "name": "Customer Support",
+        "slug": "customer-support"
+      },
+      "license": "MIT",
+      "name": "Customer Support Triage Agent",
+      "path": "agents/customer-support-triage-agent",
+      "slug": "customer-support-triage-agent",
+      "summary": "Classify support requests, find grounded answers, draft replies, and prepare clean escalations.",
+      "url": "https://www.eveagents.dev/customer-support/customer-support-triage-agent",
+      "version": "1.0.0"
+    },
+    {
+      "category": {
+        "name": "Education",
+        "slug": "education"
+      },
+      "license": "MIT",
+      "name": "Learning Path Coach",
+      "path": "agents/learning-path-coach",
+      "slug": "learning-path-coach",
+      "summary": "Build practical learning plans from trusted resources, exercises, available time, and progress.",
+      "url": "https://www.eveagents.dev/education/learning-path-coach",
+      "version": "1.0.0"
+    },
+    {
+      "category": {
+        "name": "Engineering",
+        "slug": "engineering"
+      },
+      "license": "MIT",
+      "name": "API Reliability Investigator",
+      "path": "agents/api-reliability-investigator",
+      "slug": "api-reliability-investigator",
+      "summary": "Diagnose failing APIs by connecting requests, logs, traces, monitors, and application errors.",
+      "url": "https://www.eveagents.dev/engineering/api-reliability-investigator",
+      "version": "1.0.0"
+    },
+    {
+      "category": {
+        "name": "Engineering",
+        "slug": "engineering"
+      },
+      "license": "MIT",
+      "name": "Bug Triage Coordinator",
+      "path": "agents/bug-triage-coordinator",
+      "slug": "bug-triage-coordinator",
+      "summary": "Turn scattered bug reports and telemetry into prioritized, reproducible engineering work.",
+      "url": "https://www.eveagents.dev/engineering/bug-triage-coordinator",
+      "version": "1.0.0"
+    },
+    {
+      "category": {
+        "name": "Engineering",
+        "slug": "engineering"
+      },
+      "license": "MIT",
+      "name": "Database Health Analyst",
+      "path": "agents/database-health-analyst",
+      "slug": "database-health-analyst",
+      "summary": "Investigate database performance, query behavior, capacity, and operational risk without making unsafe changes.",
+      "url": "https://www.eveagents.dev/engineering/database-health-analyst",
+      "version": "1.0.0"
+    },
+    {
+      "category": {
+        "name": "Engineering",
+        "slug": "engineering"
+      },
+      "license": "MIT",
+      "name": "Incident Response Commander",
+      "path": "agents/incident-response-commander",
+      "slug": "incident-response-commander",
+      "summary": "Investigate incidents, coordinate responders, and turn evidence into a clear recovery plan.",
+      "url": "https://www.eveagents.dev/engineering/incident-response-commander",
+      "version": "1.0.0"
+    },
+    {
+      "category": {
+        "name": "Engineering",
+        "slug": "engineering"
+      },
+      "license": "MIT",
+      "name": "MCP Server Operations Manager",
+      "path": "agents/mcp-server-operations-manager",
+      "slug": "mcp-server-operations-manager",
+      "summary": "Monitor MCP servers, investigate tool failures, and prepare safe operational remediations.",
+      "url": "https://www.eveagents.dev/engineering/mcp-server-operations-manager",
+      "version": "1.0.0"
+    },
+    {
+      "category": {
+        "name": "Engineering",
+        "slug": "engineering"
+      },
+      "license": "MIT",
+      "name": "Release Readiness Manager",
+      "path": "agents/release-readiness-manager",
+      "slug": "release-readiness-manager",
+      "summary": "Assess release risk across open work, errors, adoption signals, documentation, and deployment state.",
+      "url": "https://www.eveagents.dev/engineering/release-readiness-manager",
+      "version": "1.0.0"
+    },
+    {
+      "category": {
+        "name": "Events",
+        "slug": "events"
+      },
+      "license": "MIT",
+      "name": "Event Operations Coordinator",
+      "path": "agents/event-operations-coordinator",
+      "slug": "event-operations-coordinator",
+      "summary": "Coordinate attendees, tickets, schedules, tasks, and event communications from one operational plan.",
+      "url": "https://www.eveagents.dev/events/event-operations-coordinator",
+      "version": "1.0.0"
+    },
+    {
+      "category": {
+        "name": "Finance",
+        "slug": "finance"
+      },
+      "license": "MIT",
+      "name": "Payment Support Investigator",
+      "path": "agents/payment-support-investigator",
+      "slug": "payment-support-investigator",
+      "summary": "Investigate failed payments, refunds, settlements, and customer payment questions safely.",
+      "url": "https://www.eveagents.dev/finance/payment-support-investigator",
+      "version": "1.0.0"
+    },
+    {
+      "category": {
+        "name": "Finance",
+        "slug": "finance"
+      },
+      "license": "MIT",
+      "name": "Revenue Operations Analyst",
+      "path": "agents/revenue-operations-analyst",
+      "slug": "revenue-operations-analyst",
+      "summary": "Reconcile revenue, payment, expense, cash, and operational records into a decision-ready report.",
+      "url": "https://www.eveagents.dev/finance/revenue-operations-analyst",
+      "version": "1.0.0"
+    },
+    {
+      "category": {
+        "name": "Knowledge",
+        "slug": "knowledge"
+      },
+      "license": "MIT",
+      "name": "Knowledge Base Curator",
+      "path": "agents/knowledge-base-curator",
+      "slug": "knowledge-base-curator",
+      "summary": "Answer internal questions with sources and turn stale, conflicting knowledge into reviewable updates.",
+      "url": "https://www.eveagents.dev/knowledge/knowledge-base-curator",
+      "version": "1.0.0"
+    },
+    {
+      "category": {
+        "name": "Marketing",
+        "slug": "marketing"
+      },
+      "license": "MIT",
+      "name": "Campaign Operations Coordinator",
+      "path": "agents/campaign-operations-coordinator",
+      "slug": "campaign-operations-coordinator",
+      "summary": "Coordinate campaign records, assets, tracked links, approvals, and cross-tool automations.",
+      "url": "https://www.eveagents.dev/marketing/campaign-operations-coordinator",
+      "version": "1.0.0"
+    },
+    {
+      "category": {
+        "name": "Marketing",
+        "slug": "marketing"
+      },
+      "license": "MIT",
+      "name": "Content Publishing Manager",
+      "path": "agents/content-publishing-manager",
+      "slug": "content-publishing-manager",
+      "summary": "Prepare, review, publish, and verify content and media across modern website platforms.",
+      "url": "https://www.eveagents.dev/marketing/content-publishing-manager",
+      "version": "1.0.0"
+    },
+    {
+      "category": {
+        "name": "Marketing",
+        "slug": "marketing"
+      },
+      "license": "MIT",
+      "name": "SEO Growth Analyst",
+      "path": "agents/seo-growth-analyst",
+      "slug": "seo-growth-analyst",
+      "summary": "Find evidence-backed search opportunities and turn them into prioritized content and site recommendations.",
+      "url": "https://www.eveagents.dev/marketing/seo-growth-analyst",
+      "version": "1.0.0"
+    },
+    {
+      "category": {
+        "name": "Product",
+        "slug": "product"
+      },
+      "license": "MIT",
+      "name": "Product Feedback Synthesizer",
+      "path": "agents/product-feedback-synthesizer",
+      "slug": "product-feedback-synthesizer",
+      "summary": "Turn qualitative feedback and product signals into evidence-backed themes and opportunities.",
+      "url": "https://www.eveagents.dev/product/product-feedback-synthesizer",
+      "version": "1.0.0"
+    },
+    {
+      "category": {
+        "name": "Product",
+        "slug": "product"
+      },
+      "license": "MIT",
+      "name": "Sprint Planning Facilitator",
+      "path": "agents/sprint-planning-facilitator",
+      "slug": "sprint-planning-facilitator",
+      "summary": "Build a realistic sprint proposal from priorities, capacity, dependencies, and delivery risk.",
+      "url": "https://www.eveagents.dev/product/sprint-planning-facilitator",
+      "version": "1.0.0"
+    },
+    {
+      "category": {
+        "name": "Productivity",
+        "slug": "productivity"
+      },
+      "license": "MIT",
+      "name": "Meeting Action Planner",
+      "path": "agents/meeting-action-planner",
+      "slug": "meeting-action-planner",
+      "summary": "Turn rough meeting notes into decisions, owners, and clear next steps.",
+      "url": "https://www.eveagents.dev/productivity/meeting-action-planner",
+      "version": "1.0.0"
+    },
+    {
+      "category": {
+        "name": "Research",
+        "slug": "research"
+      },
+      "license": "MIT",
+      "name": "Nonprofit Grant Researcher",
+      "path": "agents/nonprofit-grant-researcher",
+      "slug": "nonprofit-grant-researcher",
+      "summary": "Find aligned funders, assess eligibility, and maintain an evidence-backed grant opportunity pipeline.",
+      "url": "https://www.eveagents.dev/research/nonprofit-grant-researcher",
+      "version": "1.0.0"
+    }
+  ],
+  "schemaVersion": 1,
+  "source": "https://www.eveagents.dev"
+}

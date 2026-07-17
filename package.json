@@ -1,0 +1,44 @@
+{
+  "name": "eveagents",
+  "version": "0.1.0",
+  "description": "Install open-source agents for Vercel's Eve framework.",
+  "type": "module",
+  "bin": {
+    "eveagents": "./bin/eveagents.js"
+  },
+  "files": [
+    "agents",
+    "bin",
+    "lib",
+    "registry.json",
+    "README.md",
+    "LICENSE.md"
+  ],
+  "scripts": {
+    "test": "node --test",
+    "sync:agents": "node scripts/sync-agents.mjs",
+    "prepack": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bergside/awesome-eve-agents.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bergside/awesome-eve-agents/issues"
+  },
+  "homepage": "https://github.com/bergside/awesome-eve-agents#readme",
+  "keywords": [
+    "agents",
+    "ai",
+    "eve",
+    "eveagents",
+    "vercel"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
